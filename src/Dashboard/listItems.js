@@ -38,6 +38,8 @@ function CustomNavbar({ onPageChange, onLogout, username }) {
               <GroupAddIcon style={{marginRight: '8px'}} />UserRole</Nav.Link>
             <Nav.Link onClick={() => onPageChange('Permissions')} style={{ marginRight: '40px', display: 'flex', alignItems: 'center ',  color: 'white' }}><AddTaskIcon style={{marginRight: '8px'}} />Permissions</Nav.Link>
             <Nav.Link onClick={() => onPageChange('Employee')} style={{ marginRight: '40px', display: 'flex', alignItems: 'center ',  color: 'white' }}><GroupsIcon style={{marginRight: '8px'}}/>Employee</Nav.Link>
+            <Nav.Link onClick={() => onPageChange('TimeCycle')} style={{ marginRight: '40px', display: 'flex', alignItems: 'center ' ,  color: 'white'}}><AssignmentIcon style={{marginRight: '8px'}} />Time Cycle</Nav.Link>
+
             <Nav.Link onClick={() => onPageChange('AllocationTable')} style={{ marginRight: '40px', display: 'flex', alignItems: 'center ' ,  color: 'white'}}><AssignmentIcon style={{marginRight: '8px'}} />Allocation</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
